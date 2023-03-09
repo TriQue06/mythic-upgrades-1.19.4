@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ruby_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tough_ruby_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicupgrades:tough_ruby_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tough_ruby_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ruby_ingot"
+    ]
+  }
+}
