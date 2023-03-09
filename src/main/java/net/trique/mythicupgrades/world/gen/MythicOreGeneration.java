@@ -10,5 +10,20 @@ public class MythicOreGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.ICE_SPIKES),
                 GenerationStep.Feature.UNDERGROUND_ORES, MythicPlacedFeatures.SAPPHIRE_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.BADLANDS, BiomeKeys.ERODED_BADLANDS, BiomeKeys.WOODED_BADLANDS),
+                GenerationStep.Feature.UNDERGROUND_ORES, MythicPlacedFeatures.RUBY_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.MANGROVE_SWAMP),
+                GenerationStep.Feature.UNDERGROUND_ORES, MythicPlacedFeatures.JADE_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT),
+                GenerationStep.Feature.UNDERGROUND_ORES, MythicPlacedFeatures.TOPAZ_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
+                GenerationStep.Feature.UNDERGROUND_ORES, MythicPlacedFeatures.AMETRINE_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.WARM_OCEAN),
+                GenerationStep.Feature.UNDERGROUND_ORES, MythicPlacedFeatures.AQUAMARINE_ORE_PLACED_KEY);
     }
 }
