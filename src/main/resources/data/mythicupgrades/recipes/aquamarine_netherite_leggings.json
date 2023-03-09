@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "mythicupgrades:aquamarine_ingot"
+  },
+  "result": {
+    "item": "mythicupgrades:aquamarine_leggings"
+  }
+}

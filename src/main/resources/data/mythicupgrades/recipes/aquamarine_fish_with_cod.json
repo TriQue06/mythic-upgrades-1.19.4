@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "mythicupgrades:aquamarine"
+    },
+    "X": {
+      "item": "minecraft:cod"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "mythicupgrades:aquamarine_fish"
+  }
+}
