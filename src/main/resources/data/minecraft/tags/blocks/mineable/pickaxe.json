@@ -28,6 +28,11 @@
     "mythicupgrades:aquamarine_ore",
     "mythicupgrades:deepslate_aquamarine_ore",
     "mythicupgrades:aquamarine_block",
-    "mythicupgrades:tough_aquamarine_block"
+    "mythicupgrades:tough_aquamarine_block",
+    
+    "mythicupgrades:kunzite_ore",
+    "mythicupgrades:deepslate_kunzite_ore",
+    "mythicupgrades:kunzite_block",
+    "mythicupgrades:tough_kunzite_block"
   ]
 }

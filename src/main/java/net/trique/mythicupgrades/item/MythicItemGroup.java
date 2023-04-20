@@ -13,6 +13,6 @@ public class MythicItemGroup {
     public static void registerMythicGroups() {
         MYTHICITEMGROUP = FabricItemGroup.builder(new Identifier(MythicUpgrades.MOD_ID, "mythicitemgroup"))
                 .displayName(Text.literal("Mythic Upgrades"))
-                .icon(() -> new ItemStack(MythicItems.RUBY)).build();
+                .icon(() -> new ItemStack(MythicItems.SAPPHIRE_INGOT)).build();
     }
 }

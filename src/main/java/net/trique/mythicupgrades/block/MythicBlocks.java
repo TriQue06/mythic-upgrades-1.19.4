@@ -126,6 +126,23 @@ public class MythicBlocks {
     public static final Block TOUGH_AQUAMARINE_BLOCK = registerBlock("tough_aquamarine_block",
             new Block(AbstractBlock.Settings.of(Material.METAL, MapColor.DIAMOND_BLUE).requiresTool().strength(50.0f, 1200.0f).sounds(BlockSoundGroup.NETHERITE)),
             MythicItemGroup.MYTHICITEMGROUP);
+    
+    
+    public static final Block KUNZITE_ORE = registerBlock("kunzite_ore",
+            new ExperienceDroppingBlock(AbstractBlock.Settings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f), UniformIntProvider.create(8, 32)),
+            MythicItemGroup.MYTHICITEMGROUP);
+
+    public static final Block DEEPSLATE_KUNZITE_ORE = registerBlock("deepslate_kunzite_ore",
+            new ExperienceDroppingBlock(AbstractBlock.Settings.copy(RUBY_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5f, 3.0f).sounds(BlockSoundGroup.DEEPSLATE), UniformIntProvider.create(8, 32)),
+            MythicItemGroup.MYTHICITEMGROUP);
+
+    public static final Block KUNZITE_BLOCK = registerBlock("kunzite_block",
+            new Block(AbstractBlock.Settings.of(Material.METAL, MapColor.PINK).requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL)),
+            MythicItemGroup.MYTHICITEMGROUP);
+
+    public static final Block TOUGH_KUNZITE_BLOCK = registerBlock("tough_kunzite_block",
+            new Block(AbstractBlock.Settings.of(Material.METAL, MapColor.PINK).requiresTool().strength(50.0f, 1200.0f).sounds(BlockSoundGroup.NETHERITE)),
+            MythicItemGroup.MYTHICITEMGROUP);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

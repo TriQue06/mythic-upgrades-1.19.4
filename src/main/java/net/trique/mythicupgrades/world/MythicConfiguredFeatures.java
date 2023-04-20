@@ -26,6 +26,7 @@ public class MythicConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> TOPAZ_ORE_KEY = registerKey("topaz_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> AMETRINE_ORE_KEY = registerKey("ametrine_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> AQUAMARINE_ORE_KEY = registerKey("aquamarine_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> KUNZITE_ORE_KEY = registerKey("kunzite_ore");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -54,6 +55,10 @@ public class MythicConfiguredFeatures {
         List<OreFeatureConfig.Target> overworldAquamarineOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, MythicBlocks.AQUAMARINE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, MythicBlocks.DEEPSLATE_AQUAMARINE_ORE.getDefaultState()));
+        
+        List<OreFeatureConfig.Target> overworldKunziteOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, MythicBlocks.KUNZITE_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, MythicBlocks.DEEPSLATE_KUNZITE_ORE.getDefaultState()));
 
 
         register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSapphireOres, 4));
@@ -62,6 +67,7 @@ public class MythicConfiguredFeatures {
         register(context, TOPAZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTopazOres, 4));
         register(context, AMETRINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endAmetrineOres, 4));
         register(context, AQUAMARINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAquamarineOres, 4));
+        register(context, KUNZITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldKunziteOres, 4));
 }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

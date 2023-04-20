@@ -23,6 +23,7 @@ import java.util.List;
         public static final RegistryKey<PlacedFeature> TOPAZ_ORE_PLACED_KEY = registerKey("topaz_ore_placed");
         public static final RegistryKey<PlacedFeature> AMETRINE_ORE_PLACED_KEY = registerKey("ametrine_ore_placed");
         public static final RegistryKey<PlacedFeature> AQUAMARINE_ORE_PLACED_KEY = registerKey("aquamarine_ore_placed");
+        public static final RegistryKey<PlacedFeature> KUNZITE_ORE_PLACED_KEY = registerKey("kunzite_ore_placed");
         public static void bootstrap(Registerable<PlacedFeature> context) {
             var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -42,6 +43,9 @@ import java.util.List;
                     MythicOrePlacement.modifiersWithCount(6,
                             HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(64))));
             register(context, AQUAMARINE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(MythicConfiguredFeatures.AQUAMARINE_ORE_KEY),
+                    MythicOrePlacement.modifiersWithCount(6,
+                            HeightRangePlacementModifier.trapezoid(YOffset.fixed(-48), YOffset.fixed(16))));
+            register(context, KUNZITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(MythicConfiguredFeatures.KUNZITE_ORE_KEY),
                     MythicOrePlacement.modifiersWithCount(6,
                             HeightRangePlacementModifier.trapezoid(YOffset.fixed(-48), YOffset.fixed(16))));
         }

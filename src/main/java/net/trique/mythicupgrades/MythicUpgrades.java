@@ -3,6 +3,7 @@ package net.trique.mythicupgrades;
 import net.fabricmc.api.ModInitializer;
 
 import net.trique.mythicupgrades.block.MythicBlocks;
+import net.trique.mythicupgrades.effect.MythicEffects;
 import net.trique.mythicupgrades.item.MythicItemGroup;
 import net.trique.mythicupgrades.item.MythicItems;
 import net.trique.mythicupgrades.world.gen.MythicWorldGeneration;
@@ -18,8 +19,8 @@ public class MythicUpgrades implements ModInitializer {
 		MythicItemGroup.registerMythicGroups();
 		MythicItems.registerMythicItems();
 		MythicBlocks.registerMythicBlocks();
+		MythicEffects.registerEffects();
 		MythicWorldGeneration.generateModWorldGen();
-
 
 		LOGGER.info("Mythic Upgrades PROBABLY works properly!");
 	}

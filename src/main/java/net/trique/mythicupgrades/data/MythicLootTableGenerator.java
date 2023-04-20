@@ -24,6 +24,8 @@ public class MythicLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(MythicBlocks.TOUGH_AMETRINE_BLOCK);
         addDrop(MythicBlocks.AQUAMARINE_BLOCK);
         addDrop(MythicBlocks.TOUGH_AQUAMARINE_BLOCK);
+        addDrop(MythicBlocks.KUNZITE_BLOCK);
+        addDrop(MythicBlocks.TOUGH_KUNZITE_BLOCK);
 
         addDrop(MythicBlocks.SAPPHIRE_ORE, oreDrops(MythicBlocks.SAPPHIRE_ORE, MythicItems.SAPPHIRE));
         addDrop(MythicBlocks.DEEPSLATE_SAPPHIRE_ORE, oreDrops(MythicBlocks.DEEPSLATE_SAPPHIRE_ORE, MythicItems.SAPPHIRE));
@@ -36,5 +38,7 @@ public class MythicLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(MythicBlocks.AMETRINE_ORE, oreDrops(MythicBlocks.AMETRINE_ORE, MythicItems.AMETRINE));
         addDrop(MythicBlocks.AQUAMARINE_ORE, oreDrops(MythicBlocks.AQUAMARINE_ORE, MythicItems.AQUAMARINE));
         addDrop(MythicBlocks.DEEPSLATE_AQUAMARINE_ORE, oreDrops(MythicBlocks.DEEPSLATE_AQUAMARINE_ORE, MythicItems.AQUAMARINE));
+        addDrop(MythicBlocks.KUNZITE_ORE, oreDrops(MythicBlocks.KUNZITE_ORE, MythicItems.KUNZITE));
+        addDrop(MythicBlocks.DEEPSLATE_KUNZITE_ORE, oreDrops(MythicBlocks.DEEPSLATE_KUNZITE_ORE, MythicItems.KUNZITE));
     }
 }

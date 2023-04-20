@@ -16,8 +16,8 @@ public class ArmorEffectItem extends ArmorItem {
     private static final int amplifier = 0;
     private final StatusEffect effect;
 
-    public ArmorEffectItem(ArmorMaterial material, EquipmentSlot slot, Settings settings, StatusEffect effect) {
-        super(material, slot, settings);
+    public ArmorEffectItem(ArmorMaterial material, ArmorItem.Type type, Settings settings, StatusEffect effect) {
+        super(material, type, settings);
         this.effect = effect;
     }
 

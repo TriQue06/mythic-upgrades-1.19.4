@@ -69,6 +69,15 @@ public class MythicRecipeGenerator extends FabricRecipeProvider {
                 3.0f, 200, "aquamarine");
         offerBlasting(exporter, List.of(MythicBlocks.DEEPSLATE_AQUAMARINE_ORE), RecipeCategory.MISC, MythicItems.AQUAMARINE,
                 3.0f, 100, "aquamarine");
+        
+        offerSmelting(exporter, List.of(MythicBlocks.KUNZITE_ORE), RecipeCategory.MISC, MythicItems.KUNZITE,
+                3.0f, 200, "kunzite");
+        offerBlasting(exporter, List.of(MythicBlocks.KUNZITE_ORE), RecipeCategory.MISC, MythicItems.KUNZITE,
+                3.0f, 100, "kunzite");
+        offerSmelting(exporter, List.of(MythicBlocks.DEEPSLATE_KUNZITE_ORE), RecipeCategory.MISC, MythicItems.KUNZITE,
+                3.0f, 200, "kunzite");
+        offerBlasting(exporter, List.of(MythicBlocks.DEEPSLATE_KUNZITE_ORE), RecipeCategory.MISC, MythicItems.KUNZITE,
+                3.0f, 100, "kunzite");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MythicItems.SAPPHIRE, RecipeCategory.BUILDING_BLOCKS, MythicBlocks.SAPPHIRE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MythicItems.SAPPHIRE_INGOT, RecipeCategory.BUILDING_BLOCKS, MythicBlocks.TOUGH_SAPPHIRE_BLOCK);
@@ -87,5 +96,8 @@ public class MythicRecipeGenerator extends FabricRecipeProvider {
         
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MythicItems.AQUAMARINE, RecipeCategory.BUILDING_BLOCKS, MythicBlocks.AQUAMARINE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MythicItems.AQUAMARINE_INGOT, RecipeCategory.BUILDING_BLOCKS, MythicBlocks.TOUGH_AQUAMARINE_BLOCK);
+   
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MythicItems.KUNZITE, RecipeCategory.BUILDING_BLOCKS, MythicBlocks.KUNZITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MythicItems.KUNZITE_INGOT, RecipeCategory.BUILDING_BLOCKS, MythicBlocks.TOUGH_KUNZITE_BLOCK);
     }
 }

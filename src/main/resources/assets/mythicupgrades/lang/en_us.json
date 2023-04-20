@@ -2,6 +2,12 @@
   "item.mythicupgrades.sapphire": "Sapphire",
   "item.mythicupgrades.sapphire_ingot": "Sapphire Ingot",
   "item.mythicupgrades.sapphire_apple": "Sapphire Apple",
+  "item.mythicupgrades.sapphire_charm": "Sapphire Charm",
+  
+  "item.mythicupgrades.sapphire_helmet": "Sapphire Helmet",
+  "item.mythicupgrades.sapphire_chestplate": "Sapphire Chestplate",
+  "item.mythicupgrades.sapphire_leggings": "Sapphire Leggings",
+  "item.mythicupgrades.sapphire_boots": "Sapphire Boots",
 
   "item.mythicupgrades.sapphire_sword": "Sapphire Sword",
   "item.mythicupgrades.sapphire_axe": "Sapphire Axe",
@@ -17,6 +23,12 @@
   "item.mythicupgrades.ruby": "Ruby",
   "item.mythicupgrades.ruby_ingot": "Ruby Ingot",
   "item.mythicupgrades.ruby_apple": "Ruby Apple",
+  "item.mythicupgrades.ruby_charm": "Ruby Charm",
+
+  "item.mythicupgrades.ruby_helmet": "Ruby Helmet",
+  "item.mythicupgrades.ruby_chestplate": "Ruby Chestplate",
+  "item.mythicupgrades.ruby_leggings": "Ruby Leggings",
+  "item.mythicupgrades.ruby_boots": "Ruby Boots",
 
   "item.mythicupgrades.ruby_sword": "Ruby Sword",
   "item.mythicupgrades.ruby_axe": "Ruby Axe",
@@ -32,11 +44,15 @@
   "item.mythicupgrades.jade": "Jade",
   "item.mythicupgrades.jade_ingot": "Jade Ingot",
   "item.mythicupgrades.jade_apple": "Jade Apple",
+  "item.mythicupgrades.jade_charm": "Jade Charm",
 
   "item.mythicupgrades.jade_helmet": "Jade Helmet",
   "item.mythicupgrades.jade_chestplate": "Jade Chestplate",
   "item.mythicupgrades.jade_leggings": "Jade Leggings",
   "item.mythicupgrades.jade_boots": "Jade Boots",
+
+  "item.mythicupgrades.jade_sword": "Jade Sword",
+  "item.mythicupgrades.jade_battle_axe": "Jade Battle Axe",
 
   "block.mythicupgrades.jade_ore": "Jade Ore",
   "block.mythicupgrades.deepslate_jade_ore": "Deepslate Jade Ore",
@@ -46,16 +62,18 @@
   "item.mythicupgrades.topaz": "Topaz",
   "item.mythicupgrades.topaz_ingot": "Topaz Ingot",
   "item.mythicupgrades.topaz_apple": "Topaz Apple",
+  "item.mythicupgrades.topaz_charm": "Topaz Charm",
 
+  "item.mythicupgrades.topaz_helmet": "Topaz Helmet",
+  "item.mythicupgrades.topaz_chestplate": "Topaz Chestplate",
+  "item.mythicupgrades.topaz_leggings": "Topaz Leggings",
+  "item.mythicupgrades.topaz_boots": "Topaz Boots",
+  
   "item.mythicupgrades.topaz_sword": "Topaz Sword",
   "item.mythicupgrades.topaz_axe": "Topaz Axe",
   "item.mythicupgrades.topaz_pickaxe": "Topaz Pickaxe",
   "item.mythicupgrades.topaz_shovel": "Topaz Shovel",
   "item.mythicupgrades.topaz_hoe": "Topaz Hoe",
-  "item.mythicupgrades.topaz_helmet": "Topaz Helmet",
-  "item.mythicupgrades.topaz_chestplate": "Topaz Chestplate",
-  "item.mythicupgrades.topaz_leggings": "Topaz Leggings",
-  "item.mythicupgrades.topaz_boots": "Topaz Boots",
 
   "block.mythicupgrades.topaz_ore": "Topaz Ore",
   "block.mythicupgrades.deepslate_topaz_ore": "Deepslate Topaz Ore",
@@ -65,6 +83,7 @@
   "item.mythicupgrades.ametrine": "Ametrine",
   "item.mythicupgrades.ametrine_ingot": "Ametrine Ingot",
   "item.mythicupgrades.ametrine_apple": "Ametrine Apple",
+  "item.mythicupgrades.ametrine_charm": "Ametrine Charm",
 
   "item.mythicupgrades.ametrine_helmet": "Ametrine Helmet",
   "item.mythicupgrades.ametrine_chestplate": "Ametrine Chestplate",
@@ -78,6 +97,7 @@
   "item.mythicupgrades.aquamarine": "Aquamarine",
   "item.mythicupgrades.aquamarine_ingot": "Aquamarine Ingot",
   "item.mythicupgrades.aquamarine_fish": "Aquamarine Fish",
+  "item.mythicupgrades.aquamarine_charm": "Aquamarine Charm",
 
   "item.mythicupgrades.aquamarine_helmet": "Aquamarine Helmet",
   "item.mythicupgrades.aquamarine_chestplate": "Aquamarine Chestplate",
@@ -87,5 +107,22 @@
   "block.mythicupgrades.aquamarine_ore": "Aquamarine Ore",
   "block.mythicupgrades.deepslate_aquamarine_ore": "Deepslate Aquamarine Ore",
   "block.mythicupgrades.aquamarine_block": "Block of Aquamarine",
-  "block.mythicupgrades.tough_aquamarine_block": "Tough Block of Aquamarine"
+  "block.mythicupgrades.tough_aquamarine_block": "Tough Block of Aquamarine",
+  
+  "item.mythicupgrades.kunzite": "Kunzite",
+  "item.mythicupgrades.kunzite_ingot": "Kunzite Ingot",
+  "item.mythicupgrades.kunzite_apple": "Kunzite Apple",
+  "item.mythicupgrades.kunzite_charm": "Kunzite Charm",
+
+  "item.mythicupgrades.kunzite_helmet": "Kunzite Helmet",
+  "item.mythicupgrades.kunzite_chestplate": "Kunzite Chestplate",
+  "item.mythicupgrades.kunzite_leggings": "Kunzite Leggings",
+  "item.mythicupgrades.kunzite_boots": "Kunzite Boots",
+
+  "block.mythicupgrades.kunzite_ore": "Kunzite Ore",
+  "block.mythicupgrades.deepslate_kunzite_ore": "Deepslate Kunzite Ore",
+  "block.mythicupgrades.kunzite_block": "Block of Kunzite",
+  "block.mythicupgrades.tough_kunzite_block": "Tough Block of Kunzite",
+
+  "effect.mythicupgrades.thorns": "Thorns"
 }
